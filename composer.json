@@ -1,0 +1,26 @@
+{
+    "name": "alleycarvalho/l5-location",
+    "description": "Package designed for the Laravel Framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alley M. Carvalho",
+            "email": "alleycarvalho@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AlleyCarvalho\\Location\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlleyCarvalho\\Location\\Providers\\LocationServiceProvider"
+            ]
+        }
+    }
+}
